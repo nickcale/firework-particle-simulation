@@ -24,5 +24,4 @@ function draw() {
       rockets.splice(i, 1);
     };    
   };
-
 };
