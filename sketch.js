@@ -2,7 +2,7 @@ var gravity;
 var rockets = [];
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, (windowHeight - document.getElementById("pageTitle").offsetHeight));
   gravity = createVector(0, 0.2);
   colorMode(RGB);
   background(0, 0, 0);
