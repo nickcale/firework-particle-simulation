@@ -20,7 +20,6 @@ class Particle {
 
     show = function () {
         var colors = HSBToRGB(this.colorHue, 255, 255);
-        console.log(colors);
         stroke(colors.r, colors.g, colors.b, this.alpha);
         strokeWeight(this.strWeight);
 
